@@ -16,7 +16,7 @@ model_provider = "shengsuanyun"
 
 [model_providers.shengsuanyun]
 name = "Shengsuanyun"
-base_url = "https://router.shengsuanyun.com/api/v1"
+base_url = "{{space.vars.homeurl}}/api/v1"
 env_key = "SSY_API_KEY"
 wire_api = "responses"
 

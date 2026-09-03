@@ -4,7 +4,7 @@
 
 **适用对象**：OpenClaw 最新版用户（Node.js 22+ / 24 推荐）
 
-**特性**：提供统一的 OpenAI 兼容接口（`https://router.shengsuanyun.com/api/v1`），一个 Key 可调用数百种模型，支持 Chat Completions 协议。
+**特性**：提供统一的 OpenAI 兼容接口（/api/v1），一个 Key 可调用数百种模型，支持 Chat Completions 协议。
 
 ### 1. 前置准备
 

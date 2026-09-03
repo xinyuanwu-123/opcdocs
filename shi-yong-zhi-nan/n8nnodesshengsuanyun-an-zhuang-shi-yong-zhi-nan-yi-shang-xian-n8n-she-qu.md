@@ -1,6 +1,6 @@
 # N8N-Nodes-Shengsuanyun 安装使用指南（已上线n8n社区）
 
-这是一个为 n8n 工作流自动化平台开发的社区节点，用于集成<code class="expression">space.vars.mainname</code>  LLM API 路由服务。该项目允许用户在 n8n 工作流中使用生算云的大语言模型服务。
+这是一个为 n8n 工作流自动化平台开发的社区节点，用于集成<code class="expression">space.vars.mainname</code> LLM API 路由服务。该项目允许用户在 n8n 工作流中使用生算云的大语言模型服务。
 
 ## 项目结构分析
 
@@ -46,7 +46,7 @@
 
 **核心功能**:
 
-* 与<code class="expression">space.vars.mainname</code>  LLM API 路由服务集成
+* 与<code class="expression">space.vars.mainname</code> LLM API 路由服务集成
 * 支持多种大语言模型
 * 流式和非流式响应
 * 工具调用支持
@@ -153,7 +153,7 @@ n8n start
 
 2. 打开节点，点击 "新建凭据"
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 3. 填写配置信息：
 

@@ -26,7 +26,7 @@
 
 页面顶部会展示当前配置的概要信息，包括内存大小、核数、镜像版本、到期时间、服务器数量和费用金额。用户在页面中调整配置后，顶部信息会用于辅助确认本次部署的资源规格和费用情况。
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ## **5. 顶部配置概要**
 

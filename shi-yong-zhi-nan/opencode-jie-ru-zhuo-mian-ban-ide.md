@@ -23,12 +23,12 @@ _(现已推出适用于 macOS、Windows 和 Linux 的 Beta 版本)_
 #### **Base URL** 填入
 
 ```
-https://router.shengsuanyun.com/api/v1
+{{space.vars.homeurl}}/api/v1
 ```
 {% endstep %}
 
 {% step %}
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+#### ![](../.gitbook/assets/img_v3_02156_8c5fe0de-89b0-4fe8-9d09-95e441b161dg.png)
 
 #### 前往个人控制台获取 **API Key** 并填入
 

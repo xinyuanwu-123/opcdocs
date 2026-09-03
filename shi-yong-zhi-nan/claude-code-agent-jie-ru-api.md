@@ -66,7 +66,7 @@ Invoke-WebRequest -Uri $scriptUrl -OutFile $localPath
 
 ```bash
 export ANTHROPIC_AUTH_TOKEN=你的API密钥
-export ANTHROPIC_BASE_URL=https://router.shengsuanyun.com/api
+export ANTHROPIC_BASE_URL={{space.vars.homeurl}}/api
 export ANTHROPIC_DEFAULT_OPUS_MODEL=bigmodel/glm-4.6
 export ANTHROPIC_DEFAULT_SONNET_MODEL=bigmodel/glm-4.6
 export ANTHROPIC_MODEL=bigmodel/glm-4.6
