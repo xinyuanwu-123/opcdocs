@@ -36,7 +36,7 @@
 
 API Key 获取参考第一步
 
-`API地址`：[https://router.shengsuanyun.com/api](https://router.shengsuanyun.com/api)
+`API地址`：<code class="expression">space.vars.baseurl</code>
 
 ![image.png](https://s.apifox.cn/api/v1/projects/6613585/resources/568083/image-preview?onlineShareType=shareDoc\&locale=zh-CN)
 

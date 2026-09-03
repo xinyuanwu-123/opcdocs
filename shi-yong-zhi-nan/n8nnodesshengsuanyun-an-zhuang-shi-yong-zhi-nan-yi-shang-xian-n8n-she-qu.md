@@ -39,7 +39,7 @@
 **凭据管理 (shengSyanYunApi.credentials.ts)**:
 
 * API 密钥认证
-* 可配置的基础 URL (默认: [https://router.shengsuanyun.com/api/v1](https://router.shengsuanyun.com/api/v1))
+* 可配置的基础 URL (默认: <code class="expression">space.vars.baseurl</code>/v1
 * 内置凭据测试功能
 
 ### 4. 功能特性

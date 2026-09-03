@@ -47,7 +47,7 @@
 from openai import OpenAI
 
 client = OpenAI(
-    base_url="{{space.vars.baseurl}}",
+    base_url="https://router.dt-unicom-ai.com/api",
     api_key="$SSY_API_KEY",
 )
 
@@ -78,7 +78,7 @@ except Exception as e:
 import OpenAI from "openai";
 
 const openai = new OpenAI({
-baseURL: "{{space.vars.baseurl}}",
+baseURL: "https://router.dt-unicom-ai.com/api",
 apiKey: "$SSY_API_KEY",
 });
 
@@ -114,7 +114,7 @@ main();
 #!/bin/bash
 
 API_KEY="$SSY_API_KEY"
-BASE_URL="{{space.vars.baseurl}}/v1/chat/completions"
+BASE_URL="https://router.dt-unicom-ai.com/api/v1/chat/completions"
 MODEL="bigmodel/glm-4"
 
 curl -s -X POST "$BASE_URL"
@@ -135,7 +135,7 @@ echo -e "[chat complete]"
 {% tab title="接口测试工具" %}
 **API端点**
 
-URL：\{{space.vars.baseurl\}}/v1/chat/completions
+URL：https://router.dt-unicom-ai.com/api/v1/chat/completions
 
 方法：`POST`
 

@@ -30,7 +30,7 @@
 
     请求格式，选择 `OpenAI`
 
-    代理地址， [https://router.shengsuanyun.com/api/v1](https://router.shengsuanyun.com/api/v1)
+    代理地址， <code class="expression">space.vars.baseurl</code>/v1
 
     API Key，获取参考第一步
 

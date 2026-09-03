@@ -55,16 +55,16 @@
 ### 第二步：配置<code class="expression">space.vars.mainname</code>API 节点
 
 1. 点击顶部新出现的 **Developer** 菜单。
-2. 选择 **Configure Third-Party Inference…（配置第三方推理）**。
+2. 选择 **Configure Third-Party Inference…配置第三方推理）**。
 3. 在弹出的配置窗口中，填写<code class="expression">space.vars.mainname</code>参数如下：
 
-| 配置项                   | 填写内容                     | 说明                                                                          |
-| --------------------- | ------------------------ | --------------------------------------------------------------------------- |
-| Connection Gateway    | 必选                       | Gateway base URL                                                            |
-| Gateway base URL      | `{{space.vars.baseurl}}` | <code class="expression">space.vars.mainname</code>专用安全中转地址，无需写 v1（可直接复制示例） |
-| Gateway API key       | `xxxxxx...`              | 粘贴您的<code class="expression">space.vars.mainname</code> API Key             |
-| Gateway auth scheme   | (留空)                     | 保持默认，无需填写                                                                   |
-| Gateway extra headers | (留空)                     | 保持默认，无需填写                                                                   |
+| 配置项                   | 填写内容                                               | 说明                                                                          |
+| --------------------- | -------------------------------------------------- | --------------------------------------------------------------------------- |
+| Connection Gateway    | 必选                                                 | Gateway base URL                                                            |
+| Gateway base URL      | <code class="expression">space.vars.baseurl</code> | <code class="expression">space.vars.mainname</code>专用安全中转地址，无需写 v1（可直接复制示例） |
+| Gateway API key       | `xxxxxx...`                                        | 粘贴您的<code class="expression">space.vars.mainname</code> API Key             |
+| Gateway auth scheme   | (留空)                                               | 保持默认，无需填写                                                                   |
+| Gateway extra headers | (留空)                                               | 保持默认，无需填写                                                                   |
 
 ![07ca9c89-1181-44c6-a37c-03abd3d9ae04.png](<../.gitbook/assets/image preview (15)>)
 

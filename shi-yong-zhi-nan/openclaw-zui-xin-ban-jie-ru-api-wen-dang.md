@@ -65,7 +65,7 @@ openclaw onboard
 
 **填写**<code class="expression">space.vars.mainname</code>**参数**（向导会提示）：
 
-Base URL：`https://router.shengsuanyun.com/api/v1`
+Base URL：<code class="expression">space.vars.baseurl</code>/v1
 
 API Key：粘贴你的<code class="expression">space.vars.mainname</code> Key
 
@@ -112,7 +112,7 @@ openclaw config
 
 ```bash
 # 设置/修改 Provider
-openclaw config set models.providers.shengsuanyun.baseUrl "https://router.shengsuanyun.com/api/v1"
+openclaw config set models.providers.shengsuanyun.baseUrl "https://router.dt-unicom-ai.com/api/v1"
 openclaw config set models.providers.shengsuanyun.apiKey "sk-你的API Key"
 openclaw config set models.providers.shengsuanyun.api "openai-completions"
 
@@ -174,7 +174,7 @@ openclaw config validate   # 校验配置合法性
 
 ### 5. 常见问题与注意事项
 
-* **Base URL 必须带 `/v1`**：<code class="expression">space.vars.mainname</code>正确地址为 `https://router.shengsuanyun.com/api/v1`。
+* **Base URL 必须带 `/v1`**：<code class="expression">space.vars.mainname</code>正确地址为 <code class="expression">space.vars.baseurl</code>/v1。
 * **模型 ID**：请以<code class="expression">space.vars.mainname</code>模型列表为准（支持 OpenAI 格式的模型均可）。
 * **中文版优势**：推荐使用 `@qingchencloud/openclaw-zh@latest`，onboard 向导已内置“胜算云”（<code class="expression">space.vars.mainname</code>生态合作方）预设。
 * **多 Provider 并存**：`mode: "merge"` 可同时保留官方模型和<code class="expression">space.vars.mainname</code>。

@@ -58,7 +58,7 @@ New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude"
 {
   "`$schema": "https://json.schemastore.org/claude-code-settings.json",
   "env": {
-    "ANTHROPIC_BASE_URL": "https://dt-unicom-ai.com/api",
+    "ANTHROPIC_BASE_URL": "https://router.dt-unicom-ai.com/api",
     "ANTHROPIC_AUTH_TOKEN": "你的API_Key_粘贴在这里",
     "ANTHROPIC_MODEL": "bigmodel/glm-4.5",
     "ANTHROPIC_DEFAULT_SONNET_MODEL": "bigmodel/glm-4.5",
@@ -88,7 +88,7 @@ New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude"
 **Windows PowerShell**：
 
 ```powershell
-$env:ANTHROPIC_BASE_URL = "https://dt-unicom-ai.com/api"
+$env:ANTHROPIC_BASE_URL = "https://router.dt-unicom-ai.com/api"
 $env:ANTHROPIC_AUTH_TOKEN = "你的API_Key"
 $env:ANTHROPIC_MODEL = "bigmodel/glm-4.5"
 ```

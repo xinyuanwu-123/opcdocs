@@ -4,7 +4,7 @@
 
 **适用对象**：Hermes Agent 用户（支持 Linux/macOS/Windows，推荐 VPS 或本地服务器运行）
 
-**我们的特性**：提供统一的 OpenAI 兼容接口（`https://router.shengsuanyun.com/api/v1`），一个 Key 可调用数百种模型（Kimi、DeepSeek、Qwen、GPT 等），完美适配 Hermes 的自定义 OpenAI 兼容端点。Hermes Agent 是 Nous Research 开发的开源自进化 AI Agent，支持持久记忆、自动生成技能、无缝接入任意 OpenAI 兼容提供商。通过 `hermes model` 和 `hermes config` 可快速接入<code class="expression">space.vars.mainname</code>，无需修改代码。
+**我们的特性**：提供统一的 OpenAI 兼容接口（<code class="expression">space.vars.baseurl</code>/v1），一个 Key 可调用数百种模型（Kimi、DeepSeek、Qwen、GPT 等），完美适配 Hermes 的自定义 OpenAI 兼容端点。Hermes Agent 是 Nous Research 开发的开源自进化 AI Agent，支持持久记忆、自动生成技能、无缝接入任意 OpenAI 兼容提供商。通过 `hermes model` 和 `hermes config` 可快速接入<code class="expression">space.vars.mainname</code>，无需修改代码。
 
 {% stepper %}
 {% step %}
@@ -69,7 +69,7 @@ Hermes 会自动验证 `/models` 接口。
 
 **填写参数**（向导提示）：
 
-**API Base URL**：`https://router.shengsuanyun.com/api/v1`
+**API Base URL**：<code class="expression">space.vars.baseurl</code>/v1
 
 **API Key**：粘贴你的<code class="expression">space.vars.mainname</code> Key
 
@@ -110,7 +110,7 @@ hermes model           # 重新进入模型选择向导（推荐修改主模型�
 ```bash
 # 设置/修改自定义端点
 hermes config set model.provider custom
-hermes config set model.base_url "https://router.shengsuanyun.com/api/v1"
+hermes config set model.base_url "https://router.dt-unicom-ai.com/api/v1"
 hermes config set model.api_key "sk-你的API Key"
 hermes config set model.default "deepseek-v3"   # 或你想要的模型ID
 
@@ -126,7 +126,7 @@ hermes config get model
 model:
   default: deepseek/deepseek-r1-0528                    # 或 deepseek-chat 等模型ID
   provider: custom
-  base_url: https://router.shengsuanyun.com/api/v1
+  base_url: https://router.dt-unicom-ai.com/api/v1
   api_key: sk-你的API Key
 
 # 可选：辅助任务使用不同模型

@@ -22,9 +22,7 @@ _(现已推出适用于 macOS、Windows 和 Linux 的 Beta 版本)_
 {% step %}
 #### **Base URL** 填入
 
-```
-{{space.vars.homeurl}}/api/v1
-```
+<code class="expression">space.vars.baseurl</code>/v1
 {% endstep %}
 
 {% step %}
@@ -104,7 +102,7 @@ nano ~/.config/opencode/opencode.json
       "npm": "@ai-sdk/openai-compatible",
       "name": "Router",
       "options": {
-        "baseURL": "https://router.shengsuanyun.com/api/v1",
+        "baseURL": "https://router.dt-unicom-ai.com/api",
         "apiKey": "在此处填入你的API_KEY",
         "timeout": 300000
       },
