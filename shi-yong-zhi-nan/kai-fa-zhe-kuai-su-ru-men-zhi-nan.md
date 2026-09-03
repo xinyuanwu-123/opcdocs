@@ -1,6 +1,6 @@
 # 开发者快速入门指南
 
-> 欢迎使用 <code class="expression">space.vars.mainname</code>  API 接入服务。只需一次接入，即可统一调用多个主流 AI 模型，平台将根据请求内容和配置自动路由到最优模型，帮您降低成本、提升响应质量。
+> 欢迎使用 <code class="expression">space.vars.mainname</code> API 接入服务。只需一次接入，即可统一调用多个主流 AI 模型，平台将根据请求内容和配置自动路由到最优模型，帮您降低成本、提升响应质量。
 
 本文以调用 glm-4为例，引导您完成大模型 API 调用，您将了解到：
 
@@ -37,7 +37,7 @@
 
 ### 调用统一接口
 
-&#x20;<code class="expression">space.vars.mainname</code> 提供统一的 API 调用地址，您只需调用一个端点，即可访问多个模型。
+<code class="expression">space.vars.mainname</code> 提供统一的 API 调用地址，您只需调用一个端点，即可访问多个模型。
 
 使用下面命令时，请将 `SSY_API_KEY` 替换为您的 API Key。
 
@@ -47,7 +47,7 @@
 from openai import OpenAI
 
 client = OpenAI(
-    base_url="https://router.shengsuanyun.com/api/v1",
+    base_url="{{space.vars.baseurl}}",
     api_key="$SSY_API_KEY",
 )
 
@@ -78,7 +78,7 @@ except Exception as e:
 import OpenAI from "openai";
 
 const openai = new OpenAI({
-baseURL: "https://router.shengsuanyun.com/api/v1",
+baseURL: "{{space.vars.baseurl}}",
 apiKey: "$SSY_API_KEY",
 });
 
@@ -114,7 +114,7 @@ main();
 #!/bin/bash
 
 API_KEY="$SSY_API_KEY"
-BASE_URL="https://router.shengsuanyun.com/api/v1/chat/completions"
+BASE_URL="{{space.vars.baseurl}}/v1/chat/completions"
 MODEL="bigmodel/glm-4"
 
 curl -s -X POST "$BASE_URL"
@@ -135,7 +135,7 @@ echo -e "[chat complete]"
 {% tab title="接口测试工具" %}
 **API端点**
 
-URL：[https://router.shengsuanyun.com/api/v1/chat/completions](https://router.shengsuanyun.com/api/v1/chat/completions)
+URL：\{{space.vars.baseurl\}}/v1/chat/completions
 
 方法：`POST`
 
