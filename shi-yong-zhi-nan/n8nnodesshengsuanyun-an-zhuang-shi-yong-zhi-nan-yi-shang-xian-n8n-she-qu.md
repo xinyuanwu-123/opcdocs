@@ -160,7 +160,7 @@ n8n start
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 * **API Key**: 输入您的API 密钥
-* **Base URL**: 保持默认值 `https://router.shengsuanyun.com/api/v1`（通常不需要修改）
+* **Base URL**: 保持默认值 <code class="expression">space.vars.baseurl</code>/v1（通常不需要修改）
 
 4. 若下方出现模型列表则表示连接成功，选择你的想用的模型工作
 

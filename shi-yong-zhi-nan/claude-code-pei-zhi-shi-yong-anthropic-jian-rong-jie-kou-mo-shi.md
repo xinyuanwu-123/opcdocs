@@ -145,7 +145,7 @@ $env:ANTHROPIC_MODEL = "bigmodel/glm-4.5"
 
 <summary>网络问题</summary>
 
-确保能访问 `https://router.shengsuanyun.com`。
+确保能访问 <code class="expression">space.vars.baseurl</code>。
 
 </details>
 
