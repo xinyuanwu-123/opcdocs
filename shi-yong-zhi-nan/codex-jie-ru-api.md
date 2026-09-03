@@ -101,7 +101,7 @@ Invoke-WebRequest -Uri $scriptUrl -OutFile $localPath
 {% endstep %}
 
 {% step %}
-之后，需要在环境变量中设置皋智荟 API key
+之后，需要在环境变量中设置<code class="expression">space.vars.mainname</code> API key
 
 **a. 临时设置（当前终端生效）**
 

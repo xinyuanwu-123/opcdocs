@@ -85,7 +85,7 @@ source ~/.zshrc  # 或 source ~/.bashrc
 **方法 1：PowerShell（临时）**
 
 ```powershell
-$env:ANTHROPIC_AUTH_TOKEN="你的皋智荟API密钥"
+$env:ANTHROPIC_AUTH_TOKEN="你的API密钥"
 $env:ANTHROPIC_BASE_URL="https://router.shengsuanyun.com/api"
 $env:ANTHROPIC_MODEL="bigmodel/glm-4.6"
 $env:ANTHROPIC_DEFAULT_HAIKU_MODEL="bigmodel/glm-4-flash.5"
@@ -100,7 +100,7 @@ $env:CLAUDE_CODE_SUBAGENT_MODEL="bigmodel/glm-4.6"
 
 ```powershell
 setx ANTHROPIC_AUTH_TOKEN "你的API密钥"
-setx ANTHROPIC_BASE_URL "https://router.shengsuanyun.com/api"
+setx ANTHROPIC_BASE_URL "{{space.vars.homeurl}}/api"
 setx ANTHROPIC_MODEL "bigmodel/glm-4.6"
 setx ANTHROPIC_DEFAULT_HAIKU_MODEL "bigmodel/glm-4-flash.5"
 setx ANTHROPIC_DEFAULT_OPUS_MODEL "bigmodel/glm-4.6"
@@ -115,7 +115,7 @@ setx CLAUDE_CODE_SUBAGENT_MODEL "bigmodel/glm-4.6"
 
 `ANTHROPIC_AUTH_TOKEN` → `你的API密钥`
 
-`ANTHROPIC_BASE_URL` → `https://router.shengsuanyun.com/api`
+`ANTHROPIC_BASE_URL` → <code class="expression">space.vars.homeurl</code>/api
 
 `ANTHROPIC_MODEL` → `bigmodel/glm-4.6`
 
