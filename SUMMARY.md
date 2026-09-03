@@ -47,25 +47,27 @@
   props:
     models: true
     downloadLink: false
+    grouping: by-tag
   dependencies:
     spec:
       ref:
         kind: openapi
-        spec: openaiapi
+        spec: openapi1
   ```
 
-## 大语言模型-anthropic兼容api
+## 大语言模型-Anthropic兼容API
 
 * ```yaml
   type: builtin:openapi
   props:
     models: true
     downloadLink: false
+    grouping: by-tag
   dependencies:
     spec:
       ref:
         kind: openapi
-        spec: anthropic3
+        spec: anthropic1
   ```
 
 ## 大语言模型-google兼容api
@@ -75,11 +77,12 @@
   props:
     models: true
     downloadLink: false
+    grouping: by-tag
   dependencies:
     spec:
       ref:
         kind: openapi
-        spec: googleapi
+        spec: google1
   ```
 
 ## 大语言-OpenAi兼容Api
@@ -111,17 +114,30 @@
   props:
     models: true
     downloadLink: false
+    grouping: by-tag
   dependencies:
     spec:
       ref:
         kind: openapi
-        spec: basejiekou
+        spec: duomeiti
   ```
 
 ## Copy of 多媒体模型接入
 
 * [支持的模型（逐步更新）](copy-of-duo-mei-ti-mo-xing-jie-ru/zhi-chi-de-mo-xing-zhu-bu-geng-xin.md)
 * [异步任务提交](copy-of-duo-mei-ti-mo-xing-jie-ru/yi-bu-ren-wu-ti-jiao.md)
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: true
+    downloadLink: true
+    grouping: by-tag
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: ceshi2
+  ```
 * [查询任务状态](copy-of-duo-mei-ti-mo-xing-jie-ru/cha-xun-ren-wu-zhuang-tai.md)
 * [同步图像生成](copy-of-duo-mei-ti-mo-xing-jie-ru/tong-bu-tu-xiang-sheng-cheng.md)
 * [同步图像编辑](copy-of-duo-mei-ti-mo-xing-jie-ru/tong-bu-tu-xiang-bian-ji.md)
@@ -147,20 +163,21 @@
   props:
     models: true
     downloadLink: false
+    grouping: by-tag
   dependencies:
     spec:
       ref:
         kind: openapi
-        spec: dream
+        spec: jimeng
   ```
 
 ## 多媒体-火山引擎
 
 * ```yaml
-  type: builtin:openapi
   props:
     models: true
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -171,10 +188,10 @@
 ## 多媒体-可灵
 
 * ```yaml
-  type: builtin:openapi
   props:
     models: true
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -185,10 +202,10 @@
 ## 多媒体-ali
 
 * ```yaml
-  type: builtin:openapi
   props:
     models: true
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -203,11 +220,12 @@
   props:
     models: true
     downloadLink: false
+    grouping: by-tag
   dependencies:
     spec:
       ref:
         kind: openapi
-        spec: tencent
+        spec: tengxun
   ```
 
 ## 多媒体-google
@@ -217,11 +235,12 @@
   props:
     models: true
     downloadLink: false
+    grouping: by-tag
   dependencies:
     spec:
       ref:
         kind: openapi
-        spec: google
+        spec: duomeitigoogle
   ```
 
 ## 多媒体-openai
@@ -231,20 +250,21 @@
   props:
     models: true
     downloadLink: false
+    grouping: by-tag
   dependencies:
     spec:
       ref:
         kind: openapi
-        spec: openai
+        spec: duomeitopenai
   ```
 
 ## 多媒体-豆包
 
 * ```yaml
-  type: builtin:openapi
   props:
     models: true
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -255,10 +275,10 @@
 ## 多媒体-minimax
 
 * ```yaml
-  type: builtin:openapi
   props:
     models: true
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -269,10 +289,10 @@
 ## 多媒体-vidu
 
 * ```yaml
-  type: builtin:openapi
   props:
     models: true
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -287,6 +307,7 @@
   props:
     models: true
     downloadLink: false
+    grouping: by-tag
   dependencies:
     spec:
       ref:
