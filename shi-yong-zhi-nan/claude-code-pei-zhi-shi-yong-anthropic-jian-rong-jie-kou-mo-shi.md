@@ -1,6 +1,6 @@
 # ❇️ Claude Code 配置使用（Anthropic 兼容接口模式）
 
-本模式适用于 **macOS、Linux（含 WSL）、Windows** 用户，目标是让你用 <code class="expression">space.vars.mainname</code>的 Claude 兼容 API 运行官方 Claude Code（无需官方 Anthropic 账号或订阅）。可在 claude 的方便快捷使用<code class="expression">space.vars.mainname</code>支持的所有 `/v1/messages` 模型，Claude Code 对于 `/v1/messages` 本身兼容适配性较好，此模式比传统 openai 兼容接口环境变量配置要更稳定，能解决大部分 openai 兼容接口环境出现的各种报错。&#x20;
+本模式适用于 **macOS、Linux（含 WSL）、Windows** 用户，目标是让你用 <code class="expression">space.vars.mainname</code>的 Claude 兼容 API 运行官方 Claude Code（无需官方 Anthropic 账号或订阅）。可在 claude 的方便快捷使用<code class="expression">space.vars.mainname</code>支持的所有 `/v1/messages` 模型，Claude Code 对于 `/v1/messages` 本身兼容适配性较好，此模式比传统 openai 兼容接口环境变量配置要更稳定，能解决大部分 openai 兼容接口环境出现的各种报错。
 
 ### 前提条件
 
@@ -58,7 +58,7 @@ New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude"
 {
   "`$schema": "https://json.schemastore.org/claude-code-settings.json",
   "env": {
-    "ANTHROPIC_BASE_URL": "https://router.shengsuanyun.com/api",
+    "ANTHROPIC_BASE_URL": "https://dt-unicom-ai.com/api",
     "ANTHROPIC_AUTH_TOKEN": "你的API_Key_粘贴在这里",
     "ANTHROPIC_MODEL": "bigmodel/glm-4.5",
     "ANTHROPIC_DEFAULT_SONNET_MODEL": "bigmodel/glm-4.5",
@@ -88,7 +88,7 @@ New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude"
 **Windows PowerShell**：
 
 ```powershell
-$env:ANTHROPIC_BASE_URL = "https://router.shengsuanyun.com/api"
+$env:ANTHROPIC_BASE_URL = "https://dt-unicom-ai.com/api"
 $env:ANTHROPIC_AUTH_TOKEN = "你的API_Key"
 $env:ANTHROPIC_MODEL = "bigmodel/glm-4.5"
 ```
