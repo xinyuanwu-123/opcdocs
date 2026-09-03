@@ -149,7 +149,7 @@ setx CLAUDE_CODE_SUBAGENT_MODEL "bigmodel/glm-4.6"
 {
   "env": {
     "ANTHROPIC_AUTH_TOKEN": "***",
-    "ANTHROPIC_BASE_URL": "https://router.shengsuanyun.com/api",
+    "ANTHROPIC_BASE_URL": "{{space.vars.homeurl}}/api",
     "API_TIMEOUT_MS": "3000000",
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "bigmodel/glm-4.6",
     "ANTHROPIC_DEFAULT_SONNET_MODEL": "bigmodel/glm-4.6",
