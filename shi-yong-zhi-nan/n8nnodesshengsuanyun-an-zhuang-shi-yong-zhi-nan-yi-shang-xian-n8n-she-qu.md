@@ -1,6 +1,6 @@
 # N8N-Nodes-Shengsuanyun 安装使用指南（已上线n8n社区）
 
-这是一个为 n8n 工作流自动化平台开发的社区节点，用于集成<code class="expression">space.vars.mainname</code> LLM API 路由服务。该项目允许用户在 n8n 工作流中使用生算云的大语言模型服务。
+这是一个为 n8n 工作流自动化平台开发的社区节点，用于集成<code class="expression">space.vars.mainname</code> LLM API 路由服务。该项目允许用户在 n8n 工作流中使用大语言模型服务。
 
 ## 项目结构分析
 
